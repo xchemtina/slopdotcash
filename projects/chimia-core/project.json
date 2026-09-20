@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1",
+  "id": "chimia-core",
+  "slug": "chimia-core",
+  "name": "Chimia Core",
+  "eyebrow": "Public repository",
+  "headline": "Make Money Making Chemistry Type-Check",
+  "description": "Finish chimia-core, a Haskell algebraic representation of molecules and reactions where conservation laws are compile-time and property-tested facts. The cabal file declares ten library modules and a four-spec test suite; three modules and the entire test directory do not exist, so the package cannot build. Accepted work makes the declared surface real, with HSpec and QuickCheck evidence.",
+  "listingTier": "community",
+  "status": "active",
+  "steward": {
+    "displayName": "ChimiaDAO",
+    "kind": "organization",
+    "github": {
+      "actorId": "154027041",
+      "nodeId": "O_kgDOCS5EIQ",
+      "login": "chimiadao",
+      "type": "Organization",
+      "profileUrl": "https://github.com/chimiadao"
+    },
+    "website": null
+  },
+  "authority": {
+    "state": "unverified",
+    "reason": "missing-repository-proof",
+    "role": "project-steward",
+    "repositoryId": "1039844087",
+    "repositoryNodeId": "R_kgDOPfrC9w",
+    "proof": null
+  },
+  "terms": {
+    "revision": "2026-09-07.1",
+    "effectiveAt": "2026-09-07T00:00:00.000Z",
+    "receiptPolicy": {
+      "state": "pending-authority-activation",
+      "activatedAt": null,
+      "bindings": []
+    },
+    "paymentTransfersIp": false,
+    "retroactive": false,
+    "copyright": {
+      "model": "contributor-retained",
+      "claimedLegalHolder": null,
+      "notice": null,
+      "legalCapacity": null,
+      "governanceResolution": null
+    },
+    "repositoryLicense": {
+      "state": "verified",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/chimiadao/catalyst-usecase-concept/blob/3ca1408c86a6fb978e7ff603cfbb56234720d1e6/LICENSE",
+      "commitSha": "3ca1408c86a6fb978e7ff603cfbb56234720d1e6",
+      "fileSha256": "015b52140231ed2e6c56977ab459721fb8d25014cdfa47f757413317c0d940c9"
+    },
+    "inbound": {
+      "mode": "license",
+      "termsUrl": "https://github.com/chimiadao/catalyst-usecase-concept/blob/3ca1408c86a6fb978e7ff603cfbb56234720d1e6/CONTRIBUTING.md",
+      "commitSha": "3ca1408c86a6fb978e7ff603cfbb56234720d1e6",
+      "fileSha256": "5aa168b9e49dca91c9fcb9ae8708a763ae66d476727da12dbb235f376dbf4561",
+      "version": "2026-09-07.1",
+      "acceptance": "Per CONTRIBUTING.md \u00a7License: contributions are licensed under Apache-2.0 (code) and CC BY-SA 4.0 (documentation). The file does not mention a CLA or an assignment instrument."
+    },
+    "assignment": null,
+    "externalPrize": null
+  },
+  "repositories": [
+    {
+      "id": "chimiadao/catalyst-usecase-concept",
+      "displayName": "chimiadao/catalyst-usecase-concept",
+      "githubUrl": "https://github.com/chimiadao/catalyst-usecase-concept",
+      "description": "ChimiaDAO monorepo. The listed work is packages/chimia-core, the Haskell algebraic representation of atoms, bonds, orbitals, molecules and reactions. Other directories describe an unfunded multi-chain proposal and are out of scope.",
+      "integrationBranch": "main"
+    }
+  ],
+  "skill": {
+    "id": "contribute-to-chimia-core",
+    "publishAtRoot": false,
+    "sourcePath": "skills/contribute-to-chimia-core",
+    "publicPath": "/projects/chimia-core/skill.md"
+  },
+  "reviewSkill": {
+    "id": "review-chimia-core-contributions",
+    "sourcePath": "skills/review-chimia-core-contributions"
+  },
+  "reward": {
+    "kind": "monthly-pool",
+    "currency": "USDC",
+    "chain": "solana",
+    "rewardStartAt": "2026-09-07T00:00:00.000Z",
+    "cycle": "calendar-month-utc",
+    "monthlyCapMinor": "250000000",
+    "monthlyCapDisplay": "$250",
+    "committedMinor": "0",
+    "paymentMode": "disabled",
+    "feeBasisPoints": 100,
+    "unusedFunds": "rollover-without-cap-increase",
+    "fundingState": "pledged"
+  },
+  "funding": {
+    "mode": "direct-noncustodial",
+    "disclosure": "Funds go directly to the project wallet. Slop does not hold or recover funds.",
+    "recordsPath": "funding/chimia-core",
+    "addresses": []
+  },
+  "modelPolicy": {
+    "mode": "open-declared",
+    "disclosureRequired": true
+  },
+  "links": {
+    "creator": "https://github.com/chimiadao",
+    "repository": "https://github.com/chimiadao/catalyst-usecase-concept",
+    "issues": "https://github.com/chimiadao/catalyst-usecase-concept/issues"
+  }
+}

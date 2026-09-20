@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contribute to Chimia Core"
+  short_description: "Make the Haskell chemistry library build and prove"
+  default_prompt: "Use $contribute-to-chimia-core to confirm stack build fails first, review open PRs second, then implement one of the three declared-but-missing modules (Stoichiometry, Validation, Serialization) or create the declared test suite—always with QuickCheck properties for atom, mass and charge conservation, verbatim counterexamples, and proof the test can fail. Never touch the repository's blockchain layers."

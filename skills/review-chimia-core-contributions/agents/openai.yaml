@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Chimia Core Contributions"
+  short_description: "Build it, break the test, check the chemistry"
+  default_prompt: "Use $review-chimia-core-contributions to build the branch yourself, delete the implementation to confirm the tests actually fail, inspect the Arbitrary instances for coverage theatre, verify chemistry claims against cited sources, and reject anything that weakens a type or a warning flag to obtain green."
